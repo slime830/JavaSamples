@@ -2,11 +2,11 @@
 
 上から順に
 
-- コンストラクタ（クラスのインスタンス化）・メンバ変数
+- コンストラクタ（クラスのインスタンス化）・メンバ変数  
 [PokemonInitializer.java](PokemonInitializer.java)
-- メンバメソッドの定義
+- メンバメソッドの定義  
 [PokemonMethod.java](PokemonMethod.java)
-- アクセス修飾子
+- アクセス修飾子  
 [PokemonAccessor.java](PokemonAccessor.java)
-- 定数・静的変数
+- 定数・静的変数  
 [ConstantAndStatic.java](ConstantAndStatic.java)
