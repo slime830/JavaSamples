@@ -2,6 +2,8 @@ package p_1;
 
 public class PrintVariable {
     public static void main(String[] args) {
+        // java p_1.PrintVariableで、ここから下が実行される
+        // とりあえず一章の間は、この「main」（4行目）の中にプログラムを全部書くって思っていてよい
         int intNum = 0;// 整数型
         double doubleNum = 1.1;// 浮動点少数型
         float floatNum = 1.1f;// フロート型（doubleの方が高精度）
