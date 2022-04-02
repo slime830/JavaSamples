@@ -1,6 +1,6 @@
 # 1章 変数の宣言～配列の動的メモリ確保
 
-上から順に
+上から順に説明
 
 - 変数の宣言  
 [PrintVariable.java](PrintVariable.java)
