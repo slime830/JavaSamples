@@ -4,10 +4,8 @@
 （決して説明がうまいとは言えませんが）
 
 ## 環境
-- Javaのバージョン  
-openjdk 11.0.13
-- OS  
-Ubuntu（Windows Subsystem for Linux）
+- OS: Ubuntu / Windows10 (Windows Subsystem for Linux)
+- 言語: Java（openjdk 11.0.13）
 
 Javaの特性上、JDKさえ一致してれば、Windowsであっても動作が一致するはず
 
