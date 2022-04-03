@@ -1,4 +1,5 @@
 package p_5;
+
 import java.util.*;//Listを使うときに必要
 
 public class ListExample {
@@ -21,31 +22,28 @@ public class ListExample {
     // ArrayList（LinkedListも同様）の宣言
     // ArrayList<中身のデータ型（参照型変数> 変数名 = new ArrayList<中身のデータ型（参照型変数>();
     // 以下、実際の例
-    public static void main(String args[]){
+    public static void main(String args[]) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         // LinkedList<Integer> linkedList = new LinkedList<Integer>();
-    
-        //Integerは、intの参照型バージョン
-        //ちなみにdoubleの参照型バージョンはDouble
-        //これらは、ただ参照型バージョンというだけでなく、便利なメンバメソッドも持っている
-    
-        //データの追加
-        int[] intArray = {1,2,3,4,5,6,7,8,9,1};
-        for(int num:intArray){
-            arrayList.add(num);//addで、Listの最後に値を追加する（[1]->[1,2]->...->[1,2,3,4,5,6,7,8,9,1]みたいなイメージ）
+
+        // Integerは、intの参照型バージョン
+        // ちなみにdoubleの参照型バージョンはDouble
+        // これらは、ただ参照型バージョンというだけでなく、便利なメンバメソッドも持っている
+
+        // データの追加
+        int[] intArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1 };
+        for (int num : intArray) {
+            arrayList.add(num);// addで、Listの最後に値を追加する（[1]->[1,2]->...->[1,2,3,4,5,6,7,8,9,1]みたいなイメージ）
         }
 
-        //データの削除
-        arrayList.remove(1);//removeで要素削除 指定した値が複数ある時は、一番左の要素を削除する（[1,2,3,4,5,6,7,8,9,1] -> [2,3,4,5,6,7,8,9,1]）
+        // データの削除
+        arrayList.remove(1);// removeで要素削除 指定した値が複数ある時は、一番左の要素を削除する（[1,2,3,4,5,6,7,8,9,1] ->
+                            // [2,3,4,5,6,7,8,9,1]）
 
         // データの参照
-        for(int i=0;i<arrayList.size();i++){// size()で要素数が得られる
+        for (int i = 0; i < arrayList.size(); i++) {// size()で要素数が得られる
             System.out.println(arrayList.get(i));// get(添え字)で、i番目の要素が得られる
         }
     }
-
-
-
-    
 
 }

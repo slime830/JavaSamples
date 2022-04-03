@@ -17,33 +17,33 @@ public class PrimitiveAndReference {
     // そのため、メソッド内で引数に変更を加えると、呼び出し元出の変数値も変化する
 
     // つまりどういうことかというと…以下説明の為のソースコード
-    static void exampleMethod(int num,int[] intArray){
+    static void exampleMethod(int num, int[] intArray) {
         num = 100;
         intArray[1] = 0;
-        //返り値は無し
+        // 返り値は無し
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int num;
         int[] intArray = new int[2];
 
         num = 10;
-        for(int i=0;i<intArray.length;i++){
+        for (int i = 0; i < intArray.length; i++) {
             intArray[i] = 10;
         }
-        
+
         System.out.println("----------");
-        System.out.println(num);//10
-        for(int n:intArray){
-            System.out.println(n);//ふたつとも10
+        System.out.println(num);// 10
+        for (int n : intArray) {
+            System.out.println(n);// ふたつとも10
         }
 
-        PrimitiveAndReference.exampleMethod(num, intArray);//返り値はない　内部でnumとintArrayは変更された
+        PrimitiveAndReference.exampleMethod(num, intArray);// 返り値はない 内部でnumとintArrayは変更された
 
         System.out.println("----------");
-        System.out.println(num);//10
-        for(int n:intArray){
-            System.out.println(n);//ふたつとも10では失くなっている
+        System.out.println(num);// 10
+        for (int n : intArray) {
+            System.out.println(n);// ふたつとも10では失くなっている
         }
 
         // といったことがおこります
