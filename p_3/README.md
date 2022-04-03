@@ -1,4 +1,4 @@
-# 1章 クラスの基礎（コンストラクタ・メンバ変数・メンバメソッド・アクセス修飾子・定数・静的変数）
+# 3章 クラスの応用（親/子クラス・抽象クラス）・例外処理
 
 上から順に説明
 
@@ -9,4 +9,7 @@
     - [DragonquestMonster.java](DragonquestMonster.java)
     - [Slime.java](Slime.java)
     - [HagureMetal.java](HagureMetal.java)
+- 例外処理  
+    - [ExceptionExample.java](ExceptionExample.java)
+    - [ExceptionMethod.java](ExceptionMethod.java)
 
