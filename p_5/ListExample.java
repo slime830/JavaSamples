@@ -14,7 +14,7 @@ public class ListExample {
     // そこでListが登場
     // Listなら、配列と非常に似た感覚でデータを扱え、加えて要素の削除や追加が非常に簡単にできる
 
-    // Listには主にArrayListとLinkedListがある。これらは、どちらもListの子クラス
+    // Listには主にArrayListとLinkedListがある。これらは、どちらもList（インタフェース）を実装
     // プログラム上での挙動は」特に変わらない。
     // ArrayListは値の参照は高速だが、要素の削除や追加は低速
     // LinkedListは値の参照は低速だが、要素の削除や追加は高速
