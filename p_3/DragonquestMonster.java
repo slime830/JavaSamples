@@ -6,8 +6,33 @@ package p_3;
 // abstractは抽象を表す
 // 今回はextendsを付けてるが、なくてもよい
 abstract public class DragonquestMonster extends Monster {
-    DragonquestMonster(String monster_name) {
+    private int ex;
+    private int dropGold;
+
+    DragonquestMonster(String monster_name,int ex,int dropGold) {
         super(monster_name);
+        this.ex = ex;
+        this.dropGold = dropGold;
+    }
+
+    DragonquestMonster(String monster_name){
+        this(monster_name,100,10);
+    }
+
+    void setEx(int ex){
+        this.ex = ex;
+    }
+
+    void setDropGold(int dropGold){
+        this.dropGold = dropGold;
+    }
+
+    int getEx(){
+        return this.ex;
+    }
+
+    int getDropGold(){
+        return this.dropGold;
     }
 
     abstract void skill();// 抽象メソッド
