@@ -33,7 +33,7 @@ public class ListExample {
         // データの追加
         int[] intArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1 };
         for (int num : intArray) {
-            arrayList.add(num);// addで、Listの最後に値を追加する（[1]->[1,2]->...->[1,2,3,4,5,6,7,8,9,1]みたいなイメージ）
+            arrayList.add(num);// addで、Listの最後に値を追加する（[1]->[1,2]->...->[1,2,3,4,5,6,7,8,9]みたいなイメージ）
         }
 
         // データの削除
