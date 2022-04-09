@@ -9,7 +9,7 @@ public class WordCounter {
     // 今までに説明していない箇所は、適宜せつめいします
 
     private String filepath;
-    HashMap<String, Integer> wordCountMap = new HashMap<>();// 実は、右の<>の中身は省略可能（バージョンによる）
+    private HashMap<String, Integer> wordCountMap = new HashMap<>();// 実は、右の<>の中身は省略可能（バージョンによる）
 
     WordCounter(String filepath) {
         this.filepath = filepath;
@@ -19,8 +19,20 @@ public class WordCounter {
         this.filepath = filepath;
     }
 
+    void setWordCountMap(HashMap<String, Integer> wordCountMap) {
+        this.wordCountMap = wordCountMap;
+    }
+
     String getFilepath() {
         return this.filepath;
+    }
+
+    HashMap<String, Integer> getWordCountMap() {
+        return this.wordCountMap;
+    }
+
+    void resetWordCountMap() {
+        this.wordCountMap = new HashMap<String, Integer>();
     }
 
     private ArrayList<String[]> readFile() {
