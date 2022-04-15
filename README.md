@@ -8,6 +8,7 @@
 - 言語: Java（openjdk 11.0.13）
 
 Javaの特性上、JDKさえ一致してれば、Windowsであっても動作が一致するはず
+初学者向けに、[WindowsJavaSetup.md](./WindowsJavaSetup.md)にWindows版のJava構築方法をまとめてます。
 
 ## 実行方法
 例
