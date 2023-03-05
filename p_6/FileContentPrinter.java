@@ -38,7 +38,7 @@ public class FileContentPrinter {
         if (args.length == 1) {
             inputFilepath = args[0];
         } else {
-            System.out.println("Usage: you can run this program with two params\nex:");
+            System.out.println("Usage: you can run this program with one params\nex:");
             System.out.println("\"java p_6.FileContentPrinter ./p_6/hoge.txt\"");
             System.exit(1);
         }
